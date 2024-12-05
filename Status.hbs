@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm Booking</title>
+  <link rel="stylesheet">
+  <style>
+      /* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #d9e4f5, #ffffff);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  background: #003f5c;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #003f5c;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #003f5c;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  color: white;
+  background: #003f5c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #4a90e2;
+}
+
+footer {
+  text-align: center;
+  background: #003f5c;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+  font-size: 14px;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Booking Confirmation</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Flight Details</h2>
+      <p><strong>firstName:</strong> [Firstname]</p>
+      <p><strong>Departure:</strong> [Departure Airport]</p>
+      <p><strong>Departure Date:</strong> [Departure Date]</p>
+      <p><strong>Return Date:</strong> [Return Date]</p>
+      <p><strong>Passengers:</strong> [Number of Passengers]</p>
+      <p><strong>Status</strong> [OnTime]</p>
+    </section>
+   
+    
+  </main>
+  </body>
+</html>
